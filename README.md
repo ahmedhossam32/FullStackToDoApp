@@ -53,7 +53,7 @@ FullStackToDoApp/
 - Basic CSS (inline styles)
 - Formik
 
-> I'm not a frontend expert yet — the frontend is minimal and functional, built to support the backend features.
+> I'm not a frontend expert yet ,built to support the backend features.
 
 ---
 
