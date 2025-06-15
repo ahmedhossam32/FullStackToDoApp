@@ -1,12 +1,52 @@
-# React + Vite
+# ⚛️ Frontend – ToDo App (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the **frontend** for the Full Stack ToDo App, built using **React** and connected to a Spring Boot backend. It allows users to interact with the API by performing actions like adding tasks, viewing them, marking them as done, and deleting them.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ⚙️ Tech Stack
 
-## Expanding the ESLint configuration
+- **React**
+- **Vite**
+- **Axios** (for HTTP requests)
+- **Formik** (for form handling)
+- **Inline CSS Styling**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> ⚠️ This frontend is intentionally kept simple. My current focus is backend development.
+
+---
+
+## 🖼 Pages & Features
+
+- 🔐 **Login Page**
+- 📝 **Signup Page**
+- 📋 **Task Page**:
+  - Add tasks
+  - View task list
+  - Mark task as done
+  - Delete task
+
+---
+
+## ▶️ Running the App
+
+Make sure the backend is running at `http://localhost:8080`, then run:
+
+```bash
+npm install
+npm run dev
+```
+
+The app will open at:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 🔗 Backend
+
+The backend is built using **Spring Boot** and documented in [`BackEnd/ToDoList/README.md`](../../BackEnd/ToDoList/README.md)
+
+---
