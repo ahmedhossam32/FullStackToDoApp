@@ -36,7 +36,7 @@ This is a classic **MVC-inspired clean layering**:
 
 ---
 
-##📡 API Endpoints
+📡 API Endpoints
 
 User Endpoints
 
@@ -61,7 +61,6 @@ User Endpoints
  CRUD Operations
 🟢 Create
 POST /api/users/signup → Create user
-
 POST /api/tasks?userId=1 → Create task for a user
 
 🟡 Read
