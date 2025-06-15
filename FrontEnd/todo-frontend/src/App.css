@@ -1,0 +1,22 @@
+/* src/App.css */
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  border-bottom: 1px solid #ccc;
+  background-color: #fdf6f0; /* light coffee tone */
+}
+
+.navbar a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #3e2723;
+  font-weight: bold;
+}

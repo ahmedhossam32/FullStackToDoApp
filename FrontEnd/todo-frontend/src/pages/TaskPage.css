@@ -1,0 +1,104 @@
+.task-page {
+  padding: 30px;
+  text-align: center;
+  background-color: #fff7f0;
+}
+
+.task-title {
+  color: black;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+
+.task-form {
+  margin-bottom: 20px;
+}
+
+.task-input {
+  padding: 8px;
+  width: 300px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.save-btn,
+.fetch-btn {
+  padding: 8px 16px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.save-btn {
+  background-color: black;
+  color: white;
+  margin-right: 10px;
+}
+
+.fetch-btn {
+  background-color: #ffcc00;
+  color: black;
+}
+
+.task-table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 70%;
+}
+
+.task-table th,
+.task-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.delete-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.finish-btn {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.warning-container {
+  padding: 30px;
+  text-align: center;
+}
+
+.warning-text {
+  color: red;
+  font-weight: bold;
+}
+
+.login-btn,
+.proceed-btn {
+  margin: 1rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.login-btn {
+  background-color: black;
+}
+
+.proceed-btn {
+  background-color: gray;
+}

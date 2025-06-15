@@ -1,0 +1,20 @@
+.home {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.home h2 {
+  font-size: 28px;
+  color: #0a0a0a;
+}
+
+.home p {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+
+.home-container {
+  text-align: center;
+  margin-top: 5rem;
+  color: #090909; }
